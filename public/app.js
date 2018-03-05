@@ -28,9 +28,9 @@ function getUser(){
     var name = document.createElement("p")
     name.innerHTML = data.login;
     //console.log(name)
-    pics.appendChild(name)
-    pics.appendChild(photo)
-}
+    pics.appendChild(name);
+    pics.appendChild(photo);
+};
 
 //iterateUsers(userArray)
 
@@ -39,6 +39,6 @@ button.addEventListener('click', searchUser)
 
 function searchUser(){
     var user = document.getElementById('input-user');
-    console.log(user)
+    //console.log(user)
     getData(user.value)
 }
